@@ -290,7 +290,7 @@ const Page = () => {
                 height="90"
                 width="100"
                 alt="no Note"
-                src="/delete.png"
+                src="./delete.png"
                 className="lg:ml-60 mb-10 ml-35"
               />
               Your first note is the beginning of your ideas taking shape
