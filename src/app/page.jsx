@@ -11,6 +11,7 @@ import Ratelimiter from "./component/ratelimiter.jsx";
 import { toast } from "react-hot-toast";
 import api from "./lib/axios.js";
 import Image from "next/image.js";
+import deleteimg from "./delete.png"
 
 
 const Page = () => {
@@ -290,7 +291,7 @@ const Page = () => {
                 height="90"
                 width="100"
                 alt="no Note"
-                src="./delete.png"
+                src={deleteimg}
                 className="lg:ml-60 mb-10 ml-35"
               />
               Your first note is the beginning of your ideas taking shape
